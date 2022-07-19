@@ -1,12 +1,18 @@
 /* ===============styles Sheet=================== */
 /* Common Font============= */
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Poppins:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Poppins:wght@600&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: -50px;
+}
+
+hr {
+    color: #888888;
+    width: 85%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* 1st part */
@@ -16,6 +22,7 @@ body {
     margin-top: 86px;
     padding-left: 93px;
     background-color: #161616;
+    background-position: 100%;
     padding-bottom: 136px;
     border-radius: 30px;
 }
@@ -49,7 +56,7 @@ body {
 
 .banner-iamge {
     position: relative;
-    bottom: -8px;
+    bottom: -10px;
     padding-top: 15px;
 
 
@@ -68,7 +75,7 @@ body {
 
 .manu-part {
     margin-right: 25px;
-    padding: 10px 0;
+    padding: 10px 20px;
     width: 312px;
     height: 312px;
     background: #161616;
@@ -88,7 +95,7 @@ body {
     border-radius: 10px;
     width: 252px;
     height: 64px;
-    left: 30px;
+    left: 2px;
     top: 2px;
     align-items: center;
 }
@@ -116,15 +123,82 @@ body {
     font-size: 20px;
 }
 
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
 .blog {
     border: 1px solid #eeeeee;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
 
+.blog-details {
+    padding-left: 20px;
+}
+
+.blogs-title {
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0.5px#888888;
+    Width: 90px;
+    Height: 25px;
+    color: #161616;
+    border: 1px solid #161616;
+    font-size: 20px;
+    font-weight: 540;
+    margin-bottom: -1px;
+}
+
+.blog-artical {
+    width: 272px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .blog-info {
     display: flex;
+    margin-left: 20px;
 }
 
 .blog-durstion {
     margin-right: 30px;
+}
+
+/* footer style */
+.final-part {
+    position: absolute;
+    width: 100%;
+    height: 444px;
+    left: 0px;
+    top: 2090px;
+    background: #161616;
+}
+
+.footer-container {
+    margin-top: 130px;
+}
+
+.footer-title {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600px;
+
+}
+
+.footer-anchors {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 43px;
+}
+
+.footer-anchors a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #B9B9B9;
 }
