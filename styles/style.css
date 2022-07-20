@@ -78,6 +78,11 @@ hr {
     bottom: -175px;
 }
 
+.container-image img {
+    width: 100%;
+    height: 100%;
+}
+
 .manu-and-blogs {
     margin: 0px 30px 0px 30px;
     display: flex;
