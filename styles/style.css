@@ -21,9 +21,14 @@ hr {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 86px;
     padding-left: 93px;
-    background-color: #161616;
+    /* background: #161616; */
     padding-bottom: 9px;
     border-radius: 30px;
+    background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+}
+
+.banner-info {
+    padding-top: 80px;
 }
 
 .banner-title {
@@ -53,8 +58,7 @@ hr {
     border-radius: 5px;
 }
 
-.banner-iamge {
-    position: relative;
+/* .banner-iamge {
     bottom: -9px;
     padding-top: 15px;
 
@@ -62,11 +66,10 @@ hr {
 }
 
 .banner-iamge img {
-    margin-right: ;
     padding-right: 10px;
     height: 100%;
     width: 100%;
-}
+} */
 
 /* manu-and-blogs */
 .manu-and-blogs {
@@ -183,7 +186,6 @@ hr {
 footer style
 =-------------------====================== */
 .final-part {
-    position: absolute;
     width: 100%;
     height: 444px;
     left: 0px;
@@ -340,7 +342,6 @@ footer style
 
 /* ==================footer part===================== */
 .final-part-1 {
-    position: absolute;
     width: 100%;
     height: 444px;
     left: 0px;
