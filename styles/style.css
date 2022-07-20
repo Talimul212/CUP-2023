@@ -22,7 +22,8 @@ hr {
     padding-left: 93px;
     padding-bottom: 111px;
     border-radius: 30px;
-    background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+    background-color: #161616;
+    /* background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat; */
     background-size: 590px, 130px, auto;
     background-repeat: no-repeat;
 }
@@ -50,6 +51,8 @@ hr {
 
 }
 
+
+
 .hidden-button {
     visibility: hidden;
 }
@@ -68,6 +71,11 @@ hr {
     font-weight: 100px;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.container-image {
+    position: relative;
+    bottom: -175px;
 }
 
 .manu-and-blogs {
@@ -244,10 +252,26 @@ footer style
     }
 
     .header-container {
-        background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
-        background-position: 20px 300px;
+        /* background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+        background-position: 20px 300px; */
         border-radius: 10px;
+        display: flex;
+        flex-direction: column;
 
+    }
+
+    .container-image {
+        display: inline-block;
+        position: relative;
+        left: -90px;
+
+
+    }
+
+    .container-image img {
+        position: relative;
+        top: -60px;
+        height: 300px;
     }
 
     .banner-info {
@@ -332,7 +356,7 @@ footer style
 @media only screen and (min-width:690px) and (max-width:1024px) {
 
     .header-container {
-        background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+        /* background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat; */
         padding-bottom: 30px;
         background-size: 320px 500px;
     }
@@ -359,6 +383,20 @@ footer style
         position: relative;
         top: -90px;
         right: 20px;
+    }
+
+    .container-image {
+        display: inline-block;
+        position: relative;
+        left: -90px;
+
+
+    }
+
+    .container-image img {
+        position: relative;
+        top: -100px;
+
     }
 
     .manu-and-blogs {
@@ -434,10 +472,21 @@ footer style
 }
 
 /*=============== Manu-and-Matches====================================================*/
+.container-image {
+    position: relative;
+    bottom: -175px;
+}
+
+.container-image img {
+    height: 90%;
+
+
+}
+
+
 .manu-and-matches {
     display: flex;
     margin-top: 130px;
-    width: 100%;
 }
 
 .manu-um-1,
@@ -552,7 +601,7 @@ footer style
     }
 
     .header-container {
-        background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+        /* background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat; */
         background-position: 20px 300px;
         border-radius: 10px;
 
@@ -593,6 +642,20 @@ footer style
     .banner-anchor {
         position: relative;
         top: 30px;
+    }
+
+    .container-image {
+        display: inline-block;
+        position: relative;
+        left: -90px;
+
+
+    }
+
+    .container-image img {
+        position: relative;
+        top: -60px;
+        height: 300px;
     }
 
     .manu-and-matches {
@@ -641,7 +704,7 @@ footer style
 @media only screen and (min-width:690px) and (max-width:1024px) {
 
     .header-container {
-        background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+        /* background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat; */
         padding-bottom: 30px;
         background-size: 320px 500px;
     }
@@ -668,6 +731,16 @@ footer style
         position: relative;
         top: -90px;
         right: 20px;
+    }
+
+    .container-image img {
+        position: relative;
+        top: -100px;
+
+    }
+
+    .manu-and-blogs {
+        display: inline;
     }
 
     .manu-and-matches {
