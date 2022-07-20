@@ -452,6 +452,7 @@ footer style
     left: 2px;
     top: 2px;
     align-items: center;
+    border: 1px solid #888888;
 }
 
 .manu-bg-1 a,
@@ -539,5 +540,180 @@ footer style
     top: 1300px;
     background: #161616;
     border-radius: 10px;
+
+}
+
+/* Responsive for world Cup 2023 =======================*/
+/* Small device ====================== */
+@media only screen and (max-width:688px) {
+    body {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .header-container {
+        background-color: blue;
+        background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+        background-position: 20px 300px;
+        border-radius: 10px;
+
+    }
+
+    .banner-info {
+        display: flex;
+        flex-direction: column;
+        margin-top: -50px;
+        padding-bottom: 290px;
+        padding-left: -90px;
+
+
+    }
+
+    .banner-title {
+        position: relative;
+        right: 45px;
+        width: 260px;
+        height: 66px;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 33px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .banner-descipation {
+        display: none;
+    }
+
+    .responsive {
+        position: relative;
+        right: 60px;
+        visibility: visible;
+    }
+
+    .banner-anchor {
+        position: relative;
+        top: 30px;
+    }
+
+    .manu-and-matches {
+        display: inline;
+    }
+
+    .manu-part-2 {
+        background-color: #FFFFFF;
+
+    }
+
+    .manu-um-1,
+    .manu-ag-1,
+    .manu-bg-1 {
+        margin-left: 60px;
+
+    }
+
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .final-part-1 {
+        height: 100%;
+    }
+
+    .footer-anchors {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 43px;
+    }
+
+    .footer-anchors a {
+        text-align: center;
+    }
+
+    .social-link {
+        padding-bottom: 10px;
+    }
+}
+
+/* medium device====================== */
+@media only screen and (min-width:690px) and (max-width:1024px) {
+
+    .header-container {
+        background: url(/assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+        padding-bottom: 30px;
+        background-size: 320px 500px;
+    }
+
+    .banner-title {
+        position: relative;
+        top: -30px;
+        right: 30px;
+        width: 200px;
+        height: 150px;
+        line-height: 1;
+        font-size: 30px;
+    }
+
+    .banner-descipation {
+        position: relative;
+        top: -70px;
+        right: 20px;
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .banner-anchor {
+        position: relative;
+        top: -90px;
+        right: 20px;
+    }
+
+    .manu-and-matches {
+        display: inline;
+    }
+
+    .manu-part-2 {
+        position: relative;
+        left: 200px;
+        background-color: #FFFFFF;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+
+    }
+
+    .manu-um-1,
+    .manu-ag-1,
+    .manu-bg-1 {
+        width: 212px;
+    }
+
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .footer-anchors {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        justify-content: center;
+        margin-top: 43px;
+        align-items: center;
+    }
+
+    .footer-anchors a {
+        text-align: center;
+    }
+
+    .goal {
+        position: relative;
+        left: 190px;
+    }
 
 }
