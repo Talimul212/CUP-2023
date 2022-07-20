@@ -22,7 +22,7 @@ hr {
     padding-left: 93px;
     padding-bottom: 111px;
     border-radius: 30px;
-    background: url(assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+    background: url(assets/BannerImage.png) right bottom no-repeat, black left top repeat;
     background-size: 590px, 130px, auto;
     background-repeat: no-repeat;
 }
@@ -244,7 +244,7 @@ footer style
     }
 
     .header-container {
-        background: url(assets/Banner\ Image.png) right bottom no-repeat, black left top repeat;
+        background: url(assets/BannerImage.png) right bottom no-repeat, black left top repeat;
         background-position: 20px 300px;
         border-radius: 10px;
 
